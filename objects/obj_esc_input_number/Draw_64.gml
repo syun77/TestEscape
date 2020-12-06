@@ -1,6 +1,5 @@
 /// @description Insert description here
-// You can write your code in this editor
-
+// 背景を描画
 draw_set_alpha(0.5);
 draw_set_color(c_black);
 draw_rectangle(0, 0, room_width, room_height, false);
@@ -8,6 +7,7 @@ draw_rectangle(0, 0, room_width, room_height, false);
 draw_set_alpha(1);
 draw_set_color(c_white);
 
+// 入力中の数値を描画
 var px = 512;
 var py = 256;
 var size = 32;
@@ -22,6 +22,7 @@ for(var i = 0; i < number_max; i++) {
 	px += size;
 }
 
+// 説明文を描画
 px = 512;
 draw_set_font(fnt_jp);
 draw_text(px, py+128, "数字キーで入力");
