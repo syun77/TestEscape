@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"fnt_jp","path":"fonts/fnt_jp/fnt_jp.yy",},"order":0,},
+    {"id":{"name":"Bg","path":"sprites/Bg/Bg.yy",},"order":1,},
     {"id":{"name":"obj_escape","path":"objects/obj_escape/obj_escape.yy",},"order":0,},
     {"id":{"name":"obj_notice","path":"objects/obj_notice/obj_notice.yy",},"order":1,},
     {"id":{"name":"scr_escape","path":"scripts/scr_escape/scr_escape.yy",},"order":0,},
