@@ -7,9 +7,9 @@ var px = room_width/2;
 var py = room_height - height;
 
 // draw bg.
-draw_set_alpha(0.8);
+draw_set_alpha(0.3);
 draw_set_color(c_black);
-draw_rectangle(0, py, room_width, room_height, false);
+draw_rectangle(0, py-16, room_width, room_height, false);
 
 // draw text.
 draw_set_alpha(1);
