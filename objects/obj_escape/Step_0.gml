@@ -2,7 +2,6 @@
 // You can write your code in this editor
 
 if(keyboard_check_pressed(vk_space)) {
-	var _inst = instance_create_depth(0, 0, 0, obj_notice);
-	_inst.text = "hello world.";
-	_inst.alarm[eNoticeAlarm.LifeTime] = 180;
+	esc_message(choose("ハローワールド", "こんにちは、世界", "こんにちはEscape"));
 }
+
