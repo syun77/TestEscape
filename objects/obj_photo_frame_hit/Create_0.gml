@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-instance_destroy();
-instance_activate_object(obj_sticker2);
+click = function() {
+	esc_message("写真立てがある");
+};

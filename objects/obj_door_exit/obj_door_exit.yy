@@ -21,7 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_photo_frame_hit","path":"objects/obj_photo_frame_hit/obj_photo_frame_hit.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_door_exit","path":"objects/obj_door_exit/obj_door_exit.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,7 +30,7 @@
     "path": "folders/Rooms/obj.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_photo_frame_hit",
+  "name": "obj_door_exit",
   "tags": [],
   "resourceType": "GMObject",
 }

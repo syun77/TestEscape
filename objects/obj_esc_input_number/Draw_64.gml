@@ -1,0 +1,29 @@
+/// @description Insert description here
+// You can write your code in this editor
+
+draw_set_alpha(0.5);
+draw_set_color(c_black);
+draw_rectangle(0, 0, room_width, room_height, false);
+
+draw_set_alpha(1);
+draw_set_color(c_white);
+
+var px = 512;
+var py = 256;
+var size = 32;
+for(var i = 0; i < number_max; i++) {
+	draw_set_color(c_black);
+	draw_rectangle(px, py, px+size, py+size, false);
+	draw_set_color(c_white);
+	draw_rectangle(px, py, px+size, py+size, true);
+	if(i < number_index) {
+		draw_text(px+8, py, string(number_list[i]));
+	}
+	px += size;
+}
+
+px = 512;
+draw_set_font(fnt_jp);
+draw_text(px, py+128, "数字キーで入力");
+draw_text(px, py+128+32, "* Enterキーで決定 *");
+draw_text(px, py+128+64, "* Backspaceキーで1文字戻る *");

@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-esc_message("写真立てがある");
+number_list = [];
+number_index = 0;
+number_max = 4;

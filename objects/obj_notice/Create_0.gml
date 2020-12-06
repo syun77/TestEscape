@@ -6,3 +6,4 @@ enum eNoticeAlarm {
 };
 
 text = "";
+depth = -10;

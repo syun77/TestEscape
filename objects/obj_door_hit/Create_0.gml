@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-esc_message("引き出しは開かない");
+click = function() {
+	esc_message("ドアは開かない");
+};

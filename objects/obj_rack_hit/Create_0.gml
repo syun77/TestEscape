@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-esc_message("「い○か○ろ○ま○あ○も○」と書かれている");
+click = function() {
+	esc_message("引き出しは開かない");
+};
