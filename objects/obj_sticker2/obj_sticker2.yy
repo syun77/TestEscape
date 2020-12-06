@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_door_close",
-    "path": "sprites/spr_door_close/spr_door_close.yy",
+    "name": "spr_sticker2",
+    "path": "sprites/spr_sticker2/spr_sticker2.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,7 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":6,"collisionObjectId":null,"parent":{"name":"obj_door_close","path":"objects/obj_door_close/obj_door_close.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":6,"collisionObjectId":null,"parent":{"name":"obj_sticker2","path":"objects/obj_sticker2/obj_sticker2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,7 +30,7 @@
     "path": "folders/Rooms/obj.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_door_close",
+  "name": "obj_sticker2",
   "tags": [],
   "resourceType": "GMObject",
 }

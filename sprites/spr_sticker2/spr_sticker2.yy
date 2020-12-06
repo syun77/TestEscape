@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 439,
+  "bbox_right": 336,
   "bbox_top": 0,
-  "bbox_bottom": 719,
+  "bbox_bottom": 145,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 440,
-  "height": 720,
+  "width": 337,
+  "height": 146,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e7d81723-60fc-4810-b86d-5134d3768d96","path":"sprites/door_close/door_close.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e7d81723-60fc-4810-b86d-5134d3768d96","path":"sprites/door_close/door_close.yy",},"LayerId":{"name":"357066f4-8452-4db5-afbb-ae4171695897","path":"sprites/door_close/door_close.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"door_close","path":"sprites/door_close/door_close.yy",},"resourceVersion":"1.0","name":"e7d81723-60fc-4810-b86d-5134d3768d96","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"68554747-585b-41d1-823e-c5807081f307","path":"sprites/spr_sticker2/spr_sticker2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"68554747-585b-41d1-823e-c5807081f307","path":"sprites/spr_sticker2/spr_sticker2.yy",},"LayerId":{"name":"88aa738b-43c8-4c38-a588-0d2101251b26","path":"sprites/spr_sticker2/spr_sticker2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_sticker2","path":"sprites/spr_sticker2/spr_sticker2.yy",},"resourceVersion":"1.0","name":"68554747-585b-41d1-823e-c5807081f307","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"door_close","path":"sprites/door_close/door_close.yy",},
+    "spriteId": {"name":"spr_sticker2","path":"sprites/spr_sticker2/spr_sticker2.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"444472ac-9362-4f74-a687-f8f8b2b9bb9f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e7d81723-60fc-4810-b86d-5134d3768d96","path":"sprites/door_close/door_close.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"eb104d7d-5660-43dc-a3af-9f536e275320","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"68554747-585b-41d1-823e-c5807081f307","path":"sprites/spr_sticker2/spr_sticker2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"door_close","path":"sprites/door_close/door_close.yy",},
+    "parent": {"name":"spr_sticker2","path":"sprites/spr_sticker2/spr_sticker2.yy",},
     "resourceVersion": "1.3",
-    "name": "door_close",
+    "name": "spr_sticker2",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"357066f4-8452-4db5-afbb-ae4171695897","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"88aa738b-43c8-4c38-a588-0d2101251b26","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "spr",
     "path": "folders/Rooms/spr.yy",
   },
   "resourceVersion": "1.0",
-  "name": "door_close",
+  "name": "spr_sticker2",
   "tags": [],
   "resourceType": "GMSprite",
 }
