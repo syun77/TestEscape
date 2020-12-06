@@ -1,4 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-instance_destroy();
-instance_activate_object(obj_door_open);
+esc_message("写真立てがある");

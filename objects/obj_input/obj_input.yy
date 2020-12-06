@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_door_close",
-    "path": "sprites/spr_door_close/spr_door_close.yy",
+    "name": "spr_input",
+    "path": "sprites/spr_input/spr_input.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Rooms/obj.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_door_close",
+  "name": "obj_input",
   "tags": [],
   "resourceType": "GMObject",
 }

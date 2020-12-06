@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_door_close",
-    "path": "sprites/spr_door_close/spr_door_close.yy",
+    "name": "spr_hit",
+    "path": "sprites/spr_hit/spr_hit.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,7 +20,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":6,"collisionObjectId":null,"parent":{"name":"obj_photo_frame_hit","path":"objects/obj_photo_frame_hit/obj_photo_frame_hit.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -28,7 +30,7 @@
     "path": "folders/Rooms/obj.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_door_close",
+  "name": "obj_photo_frame_hit",
   "tags": [],
   "resourceType": "GMObject",
 }
